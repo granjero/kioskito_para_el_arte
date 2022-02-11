@@ -30,6 +30,7 @@ Editar el script lightdm config /etc/lightdm/lightdm.conf para el autologin. Só
 [SeatDefaults]
 autologin-user=nombreDeUsuarioUtilizadoEnLaInstalacion
 user-session=openbox
+xserver-command=X -nocursor
 ```
 
 - Autostart
