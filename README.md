@@ -15,11 +15,10 @@ Instalar:
   - openbox 
   - lightdm
   - openssh-server
-  - unclutter
 
 `$ su - root`
 
-`$ apt -y install xorg chromium openbox lightdm openssh-server unclutter`
+`$ apt -y install xorg chromium openbox lightdm openssh-server`
 
 ### Configuraciones
 
@@ -44,8 +43,6 @@ Crear el archivo `autostart` dentro del directorio openbox con el siguiente cont
 ```
 #!/bin/bash
 
-@unclutter -idle 0.1 &
-
 chromium \
     --no-first-run \
     --disable \
@@ -57,3 +54,9 @@ chromium \
     --kiosk "http://www.google.com" &
 
 ```
+
+
+TODO
+
+grub plymouth
+
