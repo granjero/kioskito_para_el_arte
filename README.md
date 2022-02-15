@@ -1,10 +1,10 @@
-# Kioskito Para El Arte
+# Kioskito
 
-## Este documento sirve para instalar un "kiosk" que abre un navegador maximizado.
+## Uso este documento para instalar un "kiosk" que abre un navegador maximizado.
 
 ### Sistema Operativo
 
-Instalar debian sin gestor de ventanas. La imagen se puede descargar de [acá para pc](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.2.0-amd64-netinst.iso) y de [acá para raspberry](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2022-01-28/2022-01-28-raspios-bullseye-armhf-lite.zip)
+Instalar Debian sin gestor de ventanas. La imagen se puede descargar de [acá para pc](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.2.0-amd64-netinst.iso) y de [acá para raspberry](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2022-01-28/2022-01-28-raspios-bullseye-armhf-lite.zip)
 
 El nombre de usuario utilizado en la instalación será utilizado en el archivo de configuración de lightdm.
 
@@ -70,7 +70,8 @@ GRUB_CMDLINE_LINUX=""
 `# update-grub`
 
 
-TODO
+- Plymouth
 
-plymouth
+Como root correr
 
+`# plymouth-set-default-theme -R lines`
