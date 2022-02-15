@@ -64,7 +64,7 @@ Editar `/etc/default/grub`
 GRUB_DEFAULT=0
 GRUB_TIMEOUT=0
 GRUB_DISTRIBUTOR=`lsb_release -i -s 2> /dev/null || echo Debian`
-GRUB_CMDLINE_LINUX_DEFAULT="quiet loglevel=0 vt.global_cursor_default=0 splash"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet loglevel=0 vt.cur_default=1 splash"
 GRUB_CMDLINE_LINUX=""
 ```
 `# update-grub`
