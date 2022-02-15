@@ -47,6 +47,11 @@ Crear el archivo `autostart` dentro del directorio openbox con el siguiente cont
 ```
 #!/bin/bash
 
+# screensaver
+xset -dpms &
+xset s off &
+
+# firefox
 firefox --kiosk "file:///home/path_to_the_arte" &
 
 ```
