@@ -72,6 +72,10 @@ GRUB_CMDLINE_LINUX=""
 
 - Plymouth
 
+Descargar en /lib/firmware/i915 
+https://anduin.linuxfromscratch.org/sources/linux-firmware/i915/
+
+
 Como root correr
 
 `# plymouth-set-default-theme -R lines`
