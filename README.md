@@ -31,7 +31,7 @@ Instalar:
 Editar el script lightdm config /etc/lightdm/lightdm.conf para el autologin. Sólo debe contener esto:
 ```
 [SeatDefaults]
-autologin-user=nombreDeUsuarioUtilizadoEnLaInstalacion
+autologin-user=arte
 user-session=openbox
 xserver-command=X -nocursor
 ```
@@ -52,7 +52,7 @@ xset -dpms &
 xset s off &
 
 # firefox
-firefox --kiosk "file:///home/path_to_the_arte" &
+firefox --kiosk "file:///home/arte/arte/index.html" &
 
 ```
 
